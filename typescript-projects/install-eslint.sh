@@ -1,0 +1,1 @@
+pnpm install --save-dev eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
