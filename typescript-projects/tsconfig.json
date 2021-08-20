@@ -4,27 +4,28 @@
 // SO, DONT DO THAT, USE TSCONFIG.BUILD.JSON FOR THE BUILD.
 
 {
-    "compilerOptions": {
-        "target": "ES2020",
-        "module": "CommonJS",
-        "lib": [
-            "ES2019"
-        ],
-        "declaration": true,
-        "strict": true,
-        "allowJs": false,
-        "esModuleInterop": true,
-        "sourceMap": true,
-        "outDir": "./js",
-        "typeRoots": [ "@types", "node_modules/@types" ],
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "CommonJS",
+		"lib": [
+			"ES2019"
+		],
+		"declaration": true,
+		"strict": true,
+		"allowJs": false,
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"outDir": "./js",
+		"baseUrl": "src",
+		"typeRoots": [ "@types", "node_modules/@types" ],
 
-    },
-    "include": [
-        "src/**/*.ts",
-    ],
-    "exclude": [
-        "node_modules",
-        // "src/test-utils",
-        // "src/**/*.test.ts"
-    ]
+	},
+	"include": [
+		"src/**/*.ts",
+	],
+	"exclude": [
+		"node_modules",
+		// "src/test-utils",
+		// "src/**/*.test.ts"
+	]
 }
