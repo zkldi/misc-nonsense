@@ -19,6 +19,6 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # Install powerlevel10k, because it's hot.
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-exec $SHELL
-
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+
+exec $SHELL
